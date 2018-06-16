@@ -8,10 +8,11 @@ data <- readOGR(dsn="./original", layer="Precincts")
 data@data$id <- rownames(data@data)
 dataPoints <- fortify(data, region="id")
 dataDF <- merge(dataPoints, data@data, by="id")
-ggData <- ggplot(data=dataDF, aes(x=long, y=lat, group=group, fill=group)) +
+dataDF$Precinct <- as.numeric(as.character(dataDF$Precinct))
+ggData <- ggplot(data=dataDF, aes(x=long, y=lat, group=group, fill=Precinct)) +
   geom_polygon() +
   geom_path(color="white") +
-  scale_fill_hue(l=40) +
+  scale_fill_gradient(low="green", high="darkgreen") +
   coord_equal() +
   theme(legend.position="none", title=element_blank(), axis.text=element_blank())
 
