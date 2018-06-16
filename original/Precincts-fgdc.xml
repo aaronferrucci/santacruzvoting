@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <origin/>
+        <pubdate>20150101</pubdate>
+        <title>Voter Precincts: Santa Cruz County, California, 2015</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace/>
+          <publish>County of Santa Cruz Information Services Department</publish>
+        </pubinfo>
+        <othercit>Retrieved on September 15, 2015 from the County of Santa Cruz Geographic Information Systems (GIS) Data web page at http://www.co.santa-cruz.ca.us/default.aspx?tabid=93.</othercit>
+        <onlink>http://purl.stanford.edu/tc328sr9298</onlink>
+        <lworkcit>
+          <citeinfo>
+            <title>Santa Cruz County, California GIS Maps and Data</title>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon shapefile voter precincts in the County of Santa Cruz, California. The Voter Precinct attribute will appear as a 4 digit number. The first digit indicates the Supervisorial District. Some may be double precincts as in 1111-1111 and will have a dash between each number. This layer is part of a collection of GIS data created for Santa Cruz County, California.</abstract>
+      <purpose>The Geographic Information Systems (GIS) Unit falls under the purview of the County of Santa Cruz Information Services Department. The GIS Unit serves all County departments and external customers and provides data on land, features and people of Santa Cruz County. Santa Cruz County encompasses 4 cities and approximately 265,000 people. This coverage can be used for basic applications such as viewing, querying and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</purpose>
+      <supplinf>GIS Layer Number - 04/Boundaries were first converted from 1"=2000' Elections Department precinct maps to AutoCAD drawing files. These were plotted at 1"=1000' and reviewed by the County's Elections Department staff. </supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-122.319581</westbc>
+        <eastbc>-121.581315</eastbc>
+        <northbc>37.292758</northbc>
+        <southbc>36.842141</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Election districts</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>Santa Cruz County (Calif.)</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data were compiled from many different sources; therefore, the accuracy of the individual layers varies significantly, and some layers do not align exactly with others. In the urban areas, data are generally accurate within five to ten feet of their true geographic coordinates, but in the rural areas, data may be accurate to only within three hundred feet. With these limitations, the County of Santa Cruz disclaims any responsibility for the accuracy or correctness of this data. This disclaimer is exclusive and in lieu of any warranties, fitness for particular purpose, and/or any other type of warranty, whether expressed or implied.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Santa Cruz Information Services Department</cntorg>
+          <cntper>Garcia, Paul</cntper>
+        </cntorgp>
+        <cntpos>Senior GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>GIS Unit</address>
+          <address>701 Ocean St., Rm. 530</address>
+          <city>Santa Cruz</city>
+          <state>California</state>
+          <postal>95060</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>831-454-3094</cntvoice>
+        <cntvoice>831-454-2030</cntvoice>
+        <cntemail>paul.garcia@santacruzcounty.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Santa Cruz Information Services Department</cntorg>
+          <cntper>Price, Matt</cntper>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>GIS Unit</address>
+          <address>701 Ocean St., Rm. 530</address>
+          <city>Santa Cruz</city>
+          <state>California</state>
+          <postal>95060</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>831-454-3101</cntvoice>
+        <cntvoice>831-454-2030</cntvoice>
+        <cntemail>matt.price@santacruzcounty.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>County of Santa Cruz Information Services Department. (2015). Voter Precincts: Santa Cruz County, California, 2015. Santa Cruz County, California. Available at http://purl.stanford.edu/tc328sr9298.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>705</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Precincts</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Precinct</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_STAr</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_STLe</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>397 Panama Mall, Mitchell Bldg., 2nd Flr.</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20160225</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>397 Panama Mall, Mitchell Bldg., 2nd Flr.</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
