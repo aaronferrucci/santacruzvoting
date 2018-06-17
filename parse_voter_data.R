@@ -60,3 +60,5 @@ turnout_by_precinct <-
 turnout_by_precinct$Turnout <- 
   turnout_by_precinct$'Ballots Cast' / turnout_by_precinct$'Registered Voters'
 
+turnout_by_precinct$Turnout <- 
+  ifelse(is.na(turnout_by_precinct$Turnout), 0, turnout_by_precinct$Turnout)
