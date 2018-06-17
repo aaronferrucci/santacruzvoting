@@ -19,7 +19,7 @@ ggData <- ggplot(data=dataDF, aes(x=long, y=lat, group=group, fill=Turnout)) +
   geom_path(color="white") +
   scale_fill_gradient(low="darkgreen", high="green") +
   coord_equal() +
-  theme(legend.position="none", title=element_blank(), axis.text=element_blank())
+  theme(axis.text=element_blank())
 
 print(ggData)
 ggsave("plot.png")
