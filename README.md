@@ -9,6 +9,7 @@ References:
     * I use the "original" shapefile
   * voting results by precinct: [Unofficial Election Night Precinct by Precinct Results](http://www.votescount.com/Portals/16/june18/ensov.pdf)
 
+Voter turnout, by precinct:
 ![alt text](https://github.com/aaronferrucci/santacruzvoting/blob/master/plot.png "Voter Precincts")
 
 
