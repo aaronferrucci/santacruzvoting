@@ -7,5 +7,8 @@ References:
   * A drop-down offers downloads of various file formats, including
       "original" and "generated" shapefiles
     * I use the "original" shapefile
+  * voting results by precinct: [Unofficial Election Night Precinct by Precinct Results](http://www.votescount.com/Portals/16/june18/ensov.pdf)
 
 ![alt text](https://github.com/aaronferrucci/santacruzvoting/blob/master/plot.png "Voter Precincts")
+
+

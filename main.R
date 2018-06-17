@@ -17,3 +17,6 @@ ggData <- ggplot(data=dataDF, aes(x=long, y=lat, group=group, fill=Precinct)) +
   theme(legend.position="none", title=element_blank(), axis.text=element_blank())
 
 print(ggData)
+ggsave("plot.png")
+
+source("parse_voter_data.R")
